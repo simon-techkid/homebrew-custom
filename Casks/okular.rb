@@ -1,8 +1,8 @@
 cask "okular" do
-  version :latest
+  version "6812"
   sha256 :no_check
 
-  url "https://cdn.kde.org/ci-builds/graphics/okular/master/macos-arm64/okular-master-6812-macos-clang-arm64.dmg"
+  url "https://cdn.kde.org/ci-builds/graphics/okular/master/macos-arm64/okular-master-#{version}-macos-clang-arm64.dmg"
   name "Okular (CI build master)"
   desc "KDE document viewer - CI/bleeding-edge macOS ARM build"
   homepage "https://kde.org/applications/graphics/okular/"
